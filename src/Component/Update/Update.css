@@ -1,0 +1,51 @@
+.updatecontainer{
+    width: 82vw;
+    height: 92vh;
+}
+.head2{
+    width: inherit;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head2 h1{
+    font-family:gilroy;
+    font-size: 2vmax;
+    font-weight: 500;
+}
+.inputbox2{
+    width: inherit;
+    height: 30vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1vmax;
+}
+.inp11 input{
+    width: 60vw;
+    height: 7vh;
+    background-color: #f5f7f8;
+    border-radius: 1vmin;
+    border: 1px solid rgb(188, 188, 188);
+    padding-left: 2vmin;
+} 
+.inp22 input{
+    width: 60vw;
+    height: 7vh;
+    background-color: #f5f7f8;
+    border-radius: 1vmin;
+    border: 1px solid rgb(188, 188, 188);
+    padding-left: 2vmin;
+} 
+.btn2{
+    padding: .8vmin 2.2vmin;
+    border: none;
+    background-color:paleturquoise;
+    border-radius: .5vmin;
+    font-family: gilroy;
+    box-shadow: 0px 2px 6px rgb(155, 202, 202);
+}

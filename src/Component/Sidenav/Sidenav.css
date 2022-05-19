@@ -1,0 +1,26 @@
+.sidenav{
+    width: 18vw;
+    height: 85vh;
+    border-top: 1px solid transparent;
+    padding-top: 2vmax;
+}
+.bar{
+    width: 18vw;
+    height: 6vh;
+    background-color:#fff2cb;
+    border-top-right-radius:3vmin ;
+    border-bottom-right-radius:3vmin ;
+    margin-bottom: .5vmin;
+    padding-left: 3vmax;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vmin;
+    font-family: gilroy;
+    color: #707070;
+}
+.bar i{
+    margin-right: 2vmax;
+}
+.bar:nth-child(1){
+    background-color:#f9e6ad ;
+}

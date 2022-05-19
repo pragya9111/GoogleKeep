@@ -1,0 +1,43 @@
+.deletecontainer{
+    width: 82vw;
+    height: 92vh;
+    /* background-color: aquamarine; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.head1{
+    width: inherit;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head1 h1{
+    font-family:gilroy;
+    font-size: 2vmax;
+    font-weight: 500;
+}
+.notesholder2{
+    width: 82vw;
+    height: 82vh;
+    /* background-color: rgb(245, 234, 234); */
+    padding:  2vmax;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes2{
+    min-width: 12vw;
+    max-height: 18vh;
+    background-color: #f9f9f9;
+    word-break: keep-all;
+    border-radius:1vmin;
+    padding: 1.4vmax;
+    line-height: 1.5vmax;
+    font-size: 1.1vmax;
+    margin-left: 2vmax;
+    font-family: gilroy;
+    margin-top: 1vmax;
+    box-shadow: 0px 0px 10px #ebebeb;
+    border: 1px solid #f2f2f2;
+}

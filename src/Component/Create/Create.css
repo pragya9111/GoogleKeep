@@ -1,0 +1,68 @@
+.createcontainer{
+    width: 82vw;
+    height: 92vh;
+}
+.inputbox{
+    width: inherit;
+    height: 30vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1vmax;
+}
+.inp1 input{
+    width: 60vw;
+    height: 7vh;
+    background-color: #f5f7f8;
+    border-radius: 1vmin;
+    border: 1px solid rgb(188, 188, 188);
+    padding-left: 2vmin;
+} 
+.inp2 input{
+    width: 60vw;
+    height: 7vh;
+    background-color: #f5f7f8;
+    border-radius: 1vmin;
+    border: 1px solid rgb(188, 188, 188);
+    padding-left: 2vmin;
+} 
+.btn{
+    padding: .8vmin 2.2vmin;
+    border: none;
+    background-color:paleturquoise;
+    border-radius: .5vmin;
+    font-family: gilroy;
+    box-shadow: 0px 2px 6px rgb(155, 202, 202);
+}
+.notesholder{
+    width: inherit;
+    height: 60vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes{
+    min-width: 12vw;
+    max-height: 18vh;
+    background-color: #f9f9f9;
+    word-break: keep-all;
+    border-radius:1vmin;
+    padding: 1.4vmax;
+    line-height: 1.5vmax;
+    font-size: 1.1vmax;
+    margin-left: 2vmax;
+    font-family: gilroy;
+    margin-top: 1vmax;
+    box-shadow: 0px 0px 10px #ebebeb;
+    border: 1px solid #f2f2f2;
+}
+.notes .upbtn{
+    padding:.5vmin 1vmin;
+    border: none;
+    background-color:paleturquoise;
+    margin-top: 3vmin;
+    border-radius: .5vmin;
+    font-family: gilroy;
+}
